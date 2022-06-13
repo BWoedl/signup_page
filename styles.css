@@ -24,31 +24,32 @@ body {
 }
 
 .sidebar img {
-  width: 40vw;
+  width: 30vw;
   height: 100vh;
   overflow: hidden;
 }
 
 .logo-banner {
-  background: black;
-  opacity: 70%;
+  background: rgba(0, 0, 0, .7);
+  color:  white;
   position: absolute;
   top: 200px;
-  width: 40vw;
+  width: 30vw;
   height: 100px;
-  color: white;
+  text-align: center;
 }
 
-.logo   {
-  transform: translateY(25%);
-  text-align: center;
-} 
-
-.logo img {
+.logo-banner img {
   width: 60px;
   height: 60px; 
+  transform:  translatey(20%);
 }
 
-.logo span {
-  font-size: 42px;
+.logo-banner span {
+  font-size: 48px;
+}
+
+.main {
+  /*  display: inline-block;*/
+  margin-left:  30vw;
 }

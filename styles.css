@@ -19,9 +19,36 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-img.sidebar{
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.sidebar img {
   width: 40vw;
   height: 100vh;
-  /* size: 400px 800px; */
   overflow: hidden;
+}
+
+.logo-banner {
+  background: black;
+  opacity: 70%;
+  position: absolute;
+  top: 200px;
+  width: 40vw;
+  height: 100px;
+  color: white;
+}
+
+.logo   {
+  transform: translateY(25%);
+  text-align: center;
+} 
+
+.logo img {
+  width: 60px;
+  height: 60px; 
+}
+
+.logo span {
+  font-size: 42px;
 }

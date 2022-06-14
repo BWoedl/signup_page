@@ -11,13 +11,48 @@
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"> 
 </head>
 <body>
-  <div class="sidebar"><img src="background.jpg">
+  <div class="sidebar split"><img src="background.jpg">
     <div class="logo-banner">
-      <img src="lotus.svg"><span>  Serenity</span>
+      <img src="lotus.svg"><span> SERENITY</span> 
     </div>
   </div>
-  <div class="main">
-    Here is some text
+  <div class="main split">
+    <p class="top">This is an online service! Sign up now to get all the good stuff. You <em>know</em> you want to.</p> 
+    <form>
+      <div class="form">
+        <p class="card">Let's do this!</p>
+        <div class="row">
+          <div class="column">
+            <label for="name">Name</label>
+            <p>
+              <input type="text" id="name" name="name" required
+                    minlength="4" size="20">
+            </p>
+            <label for="email">Email</label>
+            <p>
+              <input type="email" id="email" name="email" required
+                    minlength="5" size="20">
+            </p>
+          </div>
+          <div class="column">
+            <label for="phone">Phone Number</label>
+            <p>
+              <input type="tel" id="phone" name="phone" required
+                  minlength="9" size="20">
+            </p>
+              <label for="password">Password</label>
+            <p>
+              <input type="text" id="password" name="password" required
+                    minlength="8" size="20">
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class = "create-account">
+        <button type="submit">CREATE ACCOUNT</button>
+        <p>Already have an account? <a>Log in</a></p>
+      </div>
+    </form>
   </div>
 </body>
 </html>
